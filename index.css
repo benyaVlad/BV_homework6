@@ -14,7 +14,6 @@
     font-weight: normal;
 }
 body{
-    max-width: 100%
     height: 4600px;
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
@@ -48,7 +47,7 @@ h3 {
     color: #212353;
 }
 .header {
-    margin: 62px 100px 0 200px;
+    margin: 62px auto 0 200px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -103,9 +102,9 @@ h3 {
     max-height: 14px;
 }
 .first_stage{
-    width: 1230px;
+    width: 1130px;
     height: 600px;
-    margin: 143px 0 0 200px;
+    margin: 143px auto 0 200px;
     background-image: url("img/image1 1.svg");
     background-repeat: no-repeat;
     background-size: 75%;
