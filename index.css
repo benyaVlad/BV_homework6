@@ -14,7 +14,14 @@
     font-weight: normal;
 }
 body{
+    width: 100%;
+    max-width: 70rem;
+    min-width: 20rem;
     height: 4600px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 a {
@@ -58,7 +65,7 @@ h3 {
 .nav_menu {
     display: flex;
     gap: 40px;
-    padding-right: 418px;
+    padding-right: 400px;
 }
 .nav_items {
     font-family: Avenir;
@@ -107,7 +114,7 @@ h3 {
     margin: 143px auto 0 200px;
     background-image: url("img/image1 1.svg");
     background-repeat: no-repeat;
-    background-size: 75%;
+    background-size: 70%;
     background-position: right bottom;
 }
 .first_stage_content h1{
