@@ -23,7 +23,7 @@ body{
     padding: 0;
     flex-direction: column;
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
-    padding-left: 200px;
+    padding-left: 100px;
 }
 a {
     text-decoration: none;
