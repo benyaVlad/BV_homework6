@@ -109,7 +109,7 @@ h3 {
     width: 20px;
     max-height: 14px;
 }
-.first_stage{
+.intro{
     width: 1200px;
     height: 700px;
     margin: 143px auto 0 0;
@@ -118,7 +118,7 @@ h3 {
     background-size: 70%;
     background-position: right bottom;
 }
-.first_stage_content h1{
+.intro_content h1{
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
@@ -130,7 +130,7 @@ h3 {
     width: 645px;
     height: 184px;
 }
-.first_stage_content p{
+.intro_content p{
     width: 350px;
     height: 130px;
     font-family: Avenir;
@@ -140,7 +140,7 @@ h3 {
     line-height: 160%;
     color: #4B5D68;
 }
-.first_stage_content button{
+.intro_content button{
     width: 170px;
     height: 60px;
     background: #9C69E2;
@@ -159,10 +159,10 @@ h3 {
     margin-top: 50px;
     cursor: pointer;
 }
-.first_stage_content button:hover{
+.intro_content button:hover{
     transform: scale(1.2);
 }
-.second_stage{
+.banner{
     background-image: url("img/girl.svg");
     background-repeat: no-repeat;
     background-position: left;
@@ -172,22 +172,22 @@ h3 {
     margin: 150px 100px 0 0;
     border-radius: 50px;
 }
-.second_stage_content {
+.banner_content {
     height: 400px;
     width: 460px;
     padding: 80px 100px 0 550px;
 }
-.third_stage {
+.features {
     margin: 150px 0 0 0;
     width: 1120px;
 }
-.third_stage_head {
+.features_head {
     margin: auto;
     height: 260px ;
     width: 580px;
     text-align: center;
 }
-.third_stage_content {
+.features_content {
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
